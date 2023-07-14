@@ -13,3 +13,16 @@ const headerActive = function () {
 }
 
 window.addEventListener('scroll', headerActive);
+
+const menuToggle = document.querySelector('.menu-toggle input');
+
+const nav = document.querySelector('nav ul');
+
+const node = document.createElement('a');
+const textnode = document.createTextNode("Log in");
+node.appendChild(textnode);
+
+menuToggle.addEventListener('click' , function() {
+  nav.classList.toggle('slide');
+  document.getElementById("navList").appendChild(node);
+})

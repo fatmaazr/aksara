@@ -25,7 +25,7 @@
                 <img id="logo" src="assets/images/logo.svg" alt="logo">
             </div>
             <nav>
-                <ul>
+                <ul id="navList">
                     <li><a href="#beranda">Beranda</a></li>
                     <li><a href="#genre">Genre</a></li>
                     <li><a href="#tentangkami">Tentang Kami</a></li>
@@ -33,7 +33,7 @@
                 </ul>
             </nav>
             <div>
-                <a class="btn-login" href="#">Log In</a>
+                <a class="btn-login header-btn" href="#">Log In</a>
             </div>
             <div class="menu-toggle">
                 <input type="checkbox">
@@ -55,8 +55,8 @@
             </div>
         </section>
         <section class="statistik-container">
-            <div class="statistik" data-aos="fade-up">
-                <div class="grid-statis">
+            <div class="statistik" data-aos="zoom-in">
+                <div class="grid-statis h3">
                     <h3>Yuk Baca dan Buat Karya di Aksara!</h3>
                 </div>
                 <div class="grid-statis">
@@ -80,14 +80,14 @@
                         <img src="assets/images/statis3.png" alt="koleksi" id="img-grid">
                     </div>
                     <div class="grid-p">
-                        <p>1.500 Koleksi Buku Non-fiksi</p>
+                        <p>1.500 Koleksi Non-fiksi</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="genre" id="genre">
             <h2 data-aos="fade-down">Ada Genre Apa Aja di Aksara?</h2>
-            <div class="list-genre" data-aos="zoom-in-down">
+            <div class="list-genre" data-aos="zoom-in">
                 <div class="list-item-genre">Fiksi Remaja</div>
                 <div class="list-item-genre">Fiksi Ilmiah</div>
                 <div class="list-item-genre">Fiksi Penggemar</div>
@@ -105,20 +105,20 @@
         <section class="reason">
             <h2 data-aos="fade-down">Alasan Harus Bergabung di Aksara</h2>
             <div class="reasons">
-                <div class="list-reason" data-aos="fade-up" >
-                    <img src="assets/images/alasan1.png" alt="alasan2" style="width: 200px;">
+                <div class="list-reason" data-aos="fade-up">
+                    <img src="assets/images/alasan1.png" alt="alasan1" id="alasan">
                     <p>Mempunyai tampilan yang indah</p>
                 </div>
                 <div class="list-reason" data-aos="fade-up" data-aos-delay="100">
-                    <img src="assets/images/alasan2.png" alt="alasan2" style="width: 200px;">
+                    <img src="assets/images/alasan2.png" alt="alasan2" id="alasan">
                     <p>Bisa Mendapat penghasilan dari apa yang ditulis</p>
                 </div>
                 <div class="list-reason" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/images/alasan3.png" alt="alasan3" style="width: 200px;">
+                    <img src="assets/images/alasan3.png" alt="alasan3" id="alasan">
                     <p>Terdapat koleksi buku non-fiksi dari penulis besar</p>
                 </div>
                 <div class="list-reason" data-aos="fade-up" data-aos-delay="300">
-                    <img src="assets/images/alasan4.png" alt="alasan4" style="width: 200px;">
+                    <img src="assets/images/alasan4.png" alt="alasan4" id="alasan">
                     <p>Tidak banyak iklan yang mengganggu</p>
                 </div>  
             </div>
@@ -127,7 +127,7 @@
             <div class="testi">
                 <h2 data-aos="fade-down">Bagaimana Pendapat Mereka Tentang Aksara?</h2>
             </div>
-            <div class="testimoni" data-aos="fade-right">
+            <div class="testimoni" data-aos="fade-up">
                 <div class="img-testi1">
                     <img src="assets/images/foto1.png" alt="foto testimoni 1" id="img-testi">
                 </div>
@@ -136,7 +136,7 @@
                     <p>- girlawp, <em>penulis Arkana</em> </p>
                 </div>
             </div>
-            <div class="testimoni" data-aos="fade-left" data-aos-delay="100">
+            <div class="testimoni" data-aos="fade-up">
                 <div class="img-testi2">
                     <img src="assets/images/foto2.png" alt="foto testimoni 2" id="img-testi">
                 </div>
@@ -150,7 +150,7 @@
             <div class="img-persuasion" data-aos="fade-right">
                 <img src="assets/images/img-persuasion.png" alt="buku" id="img-persuasion">
             </div>
-            <div class="persuasion-content" data-aos="fade-left" data-aos-delay="200">
+            <div class="persuasion-content" data-aos="fade-up" data-aos-delay="200">
                 <h1>Yuk mulai petualangan literasimu di Aksara!</h2>
                 <a class="btn-signin" href="#">Daftar</a>
             </div>
@@ -179,9 +179,9 @@
                 </div>
             </section>
             <section class="social-media">
-                <i class="fa-brands fa-square-instagram fa-2x"></i>
-                <i class="fa-brands fa-twitter fa-2x"></i>
-                <i class="fa-brands fa-facebook fa-2x"></i>
+                <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
             </section>
         </div>
         <div class="footer-bottom">
