@@ -379,7 +379,7 @@ header {
 }
 
 .hero {
-  background-image: url(../assets/images/background.svg);
+  background-image: url(../assets/images/background.png);
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -637,7 +637,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 30px;
   }
@@ -753,6 +753,9 @@ footer {
     display: none;
   }
 
+  .header-container {
+    height: 10vh;
+  }
   h1 {
     font-size: 26px;
   }
@@ -766,13 +769,13 @@ footer {
   }
 
   #hero-image, #img-persuasion {
-    width: 200px;
+    width: 150px;
   }
 
   .hero {
     height: fit-content;
-    padding-top: 25%;
-    padding-bottom: 15%;
+    padding-top: 30%;
+    padding-bottom: 20%;
   }
 
   .list-reason > p {
